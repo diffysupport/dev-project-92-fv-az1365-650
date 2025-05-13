@@ -1,0 +1,30 @@
+basic:
+    name: 'Dr. Mayra Daniel'
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - 'https://www.kihn.com/id-voluptatum-nemo-quaerat-natus.html'
+        - 'https://www.lindgren.com/cupiditate-nostrum-qui-magni-quo-maiores-impedit.html'
+    monitoring:
+        days: {  }
+        type: ''
+advanced:
+    mask: ''
+    remove: ''
+    isolate: ''
+    delay: 15
+    scroll: true
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true

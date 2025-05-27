@@ -1,19 +1,18 @@
 basic:
-    name: 'Dr. Mayra Daniel'
+    name: 'Prof. Jessica Rolfson I'
     breakpoints:
         - 640
         - 1024
         - 1200
     pages:
-        - 'https://www.kihn.com/id-voluptatum-nemo-quaerat-natus.html'
-        - 'https://www.lindgren.com/cupiditate-nostrum-qui-magni-quo-maiores-impedit.html'
+        - 'https://koepp.com/'
+        - 'https://www.morissette.com/in-et-molestias-aut-aliquam-perspiciatis-ut-ut'
     monitoring:
         days: {  }
         type: ''
 advanced:
     mask: ''
     remove: ''
-    isolate: ''
     delay: 15
     scroll: true
     headers:
@@ -22,9 +21,14 @@ advanced:
     custom_js: ''
     custom_css: ''
     mock_content: ''
+    sensitivity: 15
+    night_mode: ''
+    retina_images: ''
     performance:
         workers_production: 30
         workers_nonproduction: 10
         workers_production_delay: 0
         workers_nonproduction_delay: 0
     stabilize: true
+proxy: false
+type: multiple-sites
